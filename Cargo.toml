@@ -1,0 +1,17 @@
+[package]
+name = "wei-kill"
+version = "0.1.3"
+edition = "2021"
+description = "kill process by name, pid or port number"
+license = "MIT OR Apache-2.0"
+documentation = "https://github.com/zuiyue-com/wei-kill"
+homepage = "https://github.com/weiforce/wei-kill"
+authors = ["Wei <market@zuiyue.com>"]
+
+[dependencies]
+netstat2 = "0.9.1"
+heim = {version = "0.1.0-rc.1", default-features = false, features = [ "process"] }
+smol = "1.2.5"
+futures = "0.3.15"
+colored = "2.0.0"
+seahorse = "1.1.2"
